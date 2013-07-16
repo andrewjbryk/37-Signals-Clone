@@ -1,0 +1,111 @@
+
+/* STYLES */
+
+header {
+	display: block;
+	height: 27px;
+	margin: 20px auto;
+	font-size: 12px;
+}
+
+body {
+	text-align: center;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	padding: 8px 40px;
+}
+
+
+aside {
+	display: inline-block;
+	float: left;
+	padding: 0 10px;
+	color: #999;
+}
+
+nav {
+	display: inline-block;
+	float: right;
+}
+
+nav li {
+	display: inline;
+	padding: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+	color: #369;
+}
+
+nav a:hover,
+nav a:active {
+	color: #69c;
+}
+
+nav li.sign-in a:link,
+nav li.sign-in a:visited {
+	color: #18afe0;
+}
+
+nav li.sign-in a:hover,
+nav li.sign-in a:active {
+	color: #369;
+}
+
+.item {
+	float: left;
+	margin:5px -70px 0 129px;
+	width: 160px;
+	border: 1px solid #e8e8e8;
+	-webkit-border-radius: 5px;
+	padding: 20px 15px 20px 15px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+
+}
+
+.signals {
+	display: block;
+	width: 164px;
+	margin: 50px auto 23px;
+}
+
+h1 {
+	font-weight: 500;
+	font-style: normal;
+	font-size: 58px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	letter-spacing: -2px;
+	color: #232323;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 30px 0;
+
+}
+
+h3 {
+	font-size: 21px;
+	color: #369;
+	font-weight: bold;
+	text-decoration: underline;
+}
+h4 {
+	margin: 5px 0 10px;
+	font-size: 14px;
+	color: #cc0000;
+}
+
+p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 5px;
+}
